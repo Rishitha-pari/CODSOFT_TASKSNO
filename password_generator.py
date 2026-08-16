@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import random
 import string
 
@@ -8,3 +9,6 @@ characters = string.ascii_letters + string.digits + string.punctuation
 password = ''.join(random.choice(characters) for _ in range(length))
 
 print("Generated Password:", password)
+=======
+
+>>>>>>> 52c1c2eb4145afed6dbf3d7bbf9e8ea25b91dab1
